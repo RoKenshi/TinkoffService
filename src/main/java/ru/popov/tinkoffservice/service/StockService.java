@@ -8,6 +8,7 @@ import ru.popov.tinkoffservice.model.Stock;
 
 import java.util.List;
 
+
 public interface StockService {
     List<Stock> getStockByTicker(String ticker);
 
